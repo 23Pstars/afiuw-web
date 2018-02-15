@@ -25,6 +25,8 @@ gulp.task('copy', () => {
         .pipe(gulp.dest('_build/assets/fonts'));
     gulp.src('./images/*')
         .pipe(gulp.dest('_build/images'));
+    gulp.src('./.htaccess')
+        .pipe(gulp.dest('_build'));
 });
 
 gulp.task('default', ['html', 'css', 'copy']);
