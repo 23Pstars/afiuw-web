@@ -6,7 +6,7 @@
   "author": "Zaf",
   "license": "MIT",
   "dependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-cssnano": "^2.1.2",
     "gulp-htmlclean": "^2.7.17"
   }
